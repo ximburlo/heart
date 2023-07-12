@@ -1,3 +1,6 @@
+body {
+    overflow: hidden;
+}
 @keyframes anime {
 	from {
 		transform: scale(1) rotate(45deg);
@@ -18,6 +21,7 @@
 		/* проигрывать анимацию в прямом и в обратном порядке */
 	animation-timing-function: ease-in;
 		/* вычисление временных промежутков для анимации, в данном случае анимация ускоряется */
+        height: 100vh;
 }
 
 @-webkit-keyframes anime {
